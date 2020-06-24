@@ -23,6 +23,11 @@ jobs:
         with:
           node-version: "12.x"
 
+      - name: Install GCC
+        run: |
+          yum install gcc
+          yum install g++
+
       - name: Install
         run: |
           npm install
