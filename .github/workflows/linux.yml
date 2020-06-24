@@ -25,8 +25,8 @@ jobs:
 
       - name: Install GCC
         run: |
-          yum install gcc
-          yum install g++
+          yum install -y gcc
+          yum install -y g++
 
       - name: Install
         run: |
