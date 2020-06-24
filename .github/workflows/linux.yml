@@ -25,7 +25,7 @@ jobs:
 
       - name: Install GCC
         run: |
-          yum install -y gcc
+          yum groupinstall 'Development Tools'
 
       - name: Install
         run: |
